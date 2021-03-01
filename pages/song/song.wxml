@@ -1,0 +1,21 @@
+<!--pages/song.wxml-->
+
+<view class="back">
+  <view bindtouchstart="touchStart" bindtouchend="touchEnd" >
+<view>
+  <text class="date">{{date}}</text>
+</view>
+<view><text class="song_words">{{song_words}}</text></view>
+<view>
+  <text class="song_name">{{song_name}}</text>
+</view>
+<view><text class="song_notion">{{song_notion}}</text></view>
+<view >
+    <text bindtap="timeback" class="song_name">{{"last day"}}
+
+    </text>
+  </view>
+<image class="bg" src="/image/1.jpg" mode="widthFix">
+</image>
+</view>
+</view>

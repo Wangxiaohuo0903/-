@@ -1,0 +1,49 @@
+/* pages/song.wxss */
+.date {
+  color: rgb(223, 206, 206);
+  font-family: "华文新魏";
+  font-size: 100rpx;
+  line-height: 150rpx;
+  margin-left: 50rpx;
+
+}
+.song_name{
+  font-family: "华文行楷";
+  font-size: 40rpx;
+  line-height: 200rpx;
+  margin-left: 300rpx;
+  color: azure;
+}
+.song_words{
+  font-family: "华文行楷";
+  font-size: 45rpx;
+  margin-left: 50rpx;
+  color: azure;
+}
+.song_notion{  font-family: "方正舒体";
+  font-size: 40rpx;
+  text-indent: 2em;
+  color: azure;
+  margin-left: 50rpx;
+  animation-delay:1s;
+
+}
+.back{
+  background-image: url(/image/1.jpg);
+  padding-top: 174rpx;
+  padding-bottom: 250rpx;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bg{
+  height: 100%;
+  width:100%;  
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+page {
+  background-color: #3f4a4d;
+
+}
